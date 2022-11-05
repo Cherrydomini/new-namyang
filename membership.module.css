@@ -1,0 +1,41 @@
+.mainImg{
+    width: 100%;
+    height: 250px;
+    background-color: yellow;
+}
+.con1{
+    margin: 0 auto;
+    width: 1120px;
+    height:600px;
+    background-color: rosybrown;
+}
+.con1_h{
+    margin: 0 auto;
+    width: 1120px;
+    height:180px;
+    background-color: black;
+}
+.con2{
+    margin: 0 auto;
+    width: 1120px;
+    height:600px;
+    background-color: rgb(12, 85, 79);
+}
+.con2_h{
+    margin: 0 auto;
+    width: 1120px;
+    height:180px;
+    background-color: black;
+}
+.con3{
+    margin: 0 auto;
+    width: 1120px;
+    height:600px;
+    background-color: rgb(138, 110, 19);
+}
+.con3_h{
+    margin: 0 auto;
+    width: 1120px;
+    height:180px;
+    background-color: black;
+}

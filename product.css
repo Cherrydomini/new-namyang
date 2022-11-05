@@ -1,0 +1,32 @@
+.product_b{
+    margin: 0 auto;
+    width: 1500px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.product_b .box{
+    float: left;
+    margin: 30px 20px;
+    width: 250px;
+    height: 400px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.cold{
+    float: left;
+    padding: 5px 8px;
+    font-size: 12px;
+    color:#fff;
+    background-color: red;
+}
+.coupon{
+    display: none;
+    float: right;
+    padding: 5px 8px;
+    font-size: 12px;
+    color:red;
+    background-color: fff;
+    border: 1px solid red
+}
