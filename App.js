@@ -2,10 +2,7 @@ import React from 'react';
 import {Route, Link} from 'react-router-dom';
 //설치: yarn add react-router-dom@5
 
-import {ProProvider} from './testContext';
-
 import './App.css';
-import Mmenu from './component/menu';
 import MainPage from './main';
 import Membership from './component/membership';
 import Product from './component/product';
@@ -19,14 +16,11 @@ import Footer from './footer';
 
 function App() {
   return (
-    <>
-    <ProProvider>
     <div className="wrap">
       <header className='header'>
          <header className='headerIn'>
           <div className='logo'><Link to='/'>logo</Link></div>
-          <Mmenu/>
-          {/* <div className='hGroup'>
+          <div className='hGroup'>
             <nav className='nav'>
              <ul>
               <li><Link to='/component/membership'>프리미엄멤버쉽</Link></li>
@@ -38,7 +32,7 @@ function App() {
               <li><Link to='/component/delivery'>가정배달</Link></li>
              </ul>
             </nav>
-          </div> */}
+          </div>
          </header>
       </header>
       <div>
@@ -53,8 +47,6 @@ function App() {
       </div>
       <Footer/>
     </div>
-    </ProProvider>
-    </>
   );
 }
 
